@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flag_pe"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="357dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/afogados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afogados" />
+
+        <Button
+            android:id="@+id/central"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Central" />
+
+        <Button
+            android:id="@+id/decisao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decisão" />
+
+        <Button
+            android:id="@+id/nautico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Náutico" />
+
+        <Button
+            android:id="@+id/petrolina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Petrolina" />
+
+        <Button
+            android:id="@+id/retro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retrô" />
+
+        <Button
+            android:id="@+id/salgueiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salgueiro" />
+
+        <Button
+            android:id="@+id/santacruz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santa Cruz" />
+
+        <Button
+            android:id="@+id/sport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sport" />
+
+        <Button
+            android:id="@+id/vitoriadastabocas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vitória das Tabocas" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

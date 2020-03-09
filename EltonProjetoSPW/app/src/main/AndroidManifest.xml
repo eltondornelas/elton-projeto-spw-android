@@ -1,0 +1,31 @@
+<?xml version="9.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elton_projeto_spw">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Clubes Campeonato Pernambucano 2020"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VitoriaDasTabocas"></activity>
+        <activity android:name=".Sport" />
+        <activity android:name=".SantaCruz" />
+        <activity android:name=".Salgueiro" />
+        <activity android:name=".Retro" />
+        <activity android:name=".Petrolina" />
+        <activity android:name=".Decisao" />
+        <activity android:name=".Central" />
+        <activity android:name=".Afogados" />
+        <activity android:name=".Nautico" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
